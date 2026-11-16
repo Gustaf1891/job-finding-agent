@@ -7,7 +7,18 @@ authors = [
     { name = "gustafab", email = "gustafab@kth.se" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "langchain>=1.5.0",
+    "langchain-openai>=1.8.0",
+    "langgraph>=1.2.22",
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.3",
+    "pyyaml>=6.0.3",
+    "sqlalchemy>=2.1.8",
+    "structlog>=26.1.0",
+    "tenacity>=9.2.1",
+]
 
 [project.scripts]
 job-finding-agent = "job_finding_agent:main"
@@ -15,3 +26,11 @@ job-finding-agent = "job_finding_agent:main"
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+    "respx>=0.23.1",
+    "ruff>=0.17.5",
+]

@@ -10,4 +10,9 @@ wheels/
 .venv
 venv/
 .venv/
+
+# Others
+.env
+.vscode
 data/
+cv/cv.md
