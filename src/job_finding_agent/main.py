@@ -1,4 +1,5 @@
-def main() -> None:
-    print("Hello from job-finding-agent!")
+def cli() -> None:
+    print("Hello from the job finding agent!")
 
-main()
+if __name__ == "__main__":
+    cli()

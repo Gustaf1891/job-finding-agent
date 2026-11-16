@@ -16,3 +16,5 @@ venv/
 .vscode
 data/
 cv/cv.md
+src/job_finding_agent/__init__.py
+response.json
