@@ -1,3 +1,13 @@
-roles: ["dataingenjör", "data engineer", "AI ingenjör", "AI engineer", "ML ingenjör", "ML engineer"]
+roles: ["dataingenjör", "data engineer", "AI ingenjör", "AI engineer", "ML ingenjör", "ML engineer", "AI", "ML"]
 max_jobs_per_run: 50
 lookback_days: 3
+
+municipalities:
+  - id: "AvNB_uwa_6n6"
+    name: "Stockholm"  
+  - id: 'zHxw_uJZ_NJ8'
+    name: "Solna"
+  - id: 'otaF_bQY_4ZD'
+    name: "Uppsala"
+  # - id: 'PVZL_BQT_XtL'
+  #   name: "Göteborg"
