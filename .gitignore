@@ -14,8 +14,10 @@ venv/
 # Others
 .env
 .vscode
+run.log
 data/
 cv/cv.md
 src/job_finding_agent/__init__.py
 response.json
 pill.ipynb
+config.yaml
