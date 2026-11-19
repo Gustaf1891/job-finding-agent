@@ -1,4 +1,4 @@
-roles: ["dataingenjör", "data engineer", "AI ingenjör", "AI engineer", "ML ingenjör", "ML engineer", "AI", "ML"]
+roles: ["dataingenjör", "data engineer", "AI ingenjör", "AI engineer"]
 max_jobs_per_run: 50
 lookback_days: 3
 
@@ -9,5 +9,5 @@ municipalities:
     name: "Solna"
   - id: 'otaF_bQY_4ZD'
     name: "Uppsala"
-  # - id: 'PVZL_BQT_XtL'
-  #   name: "Göteborg"
+  - id: 'PVZL_BQT_XtL'
+    name: "Göteborg"
