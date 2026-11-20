@@ -35,6 +35,7 @@ git clone <repo-url>
 cd job-finding-agent
 uv sync
 cp config.example.yaml config.yaml   # then edit
+cp cv/example_cv.md cv/cv.md         # Optionally to use example cv, else create your own cv. 
 uv run jobagent
 ```
 
